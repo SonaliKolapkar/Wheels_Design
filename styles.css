@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Varta, Arial;
+    background-image: url("./images/bg-cover.png");
+}
+
+h2{
+    border-left: 15px solid black;
+    padding: 10px;
+    color: gray;
+    margin: 20px 0px;
+}
+
+.info{
+    font-size: larger;
+    font-style: italic;
+    padding: 0px 30px;
+    width: 55%;
+    color:gray;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+
+.wheel{
+    margin: 0px 50px;
+    padding: 20px 0px;
+    width: 18%;
+    text-align: center;
+    font-size: small;
+}
+
+.wheel:hover {
+    background-image: url('./images/wheel-bg.jpg');
+    margin-top: 30px;
+    border: 1px solid lightslategray;
+    transform: scale(1.5);
+}
+
+.wheel > img{
+    width: 80%;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+}
+.line1, .line3{
+    font-weight:900;
+}
+.line2{
+    width: 90%;
+}
